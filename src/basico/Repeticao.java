@@ -1,8 +1,6 @@
 package basico;
 
-import java.sql.SQLOutput;
-
-public class Basico {
+public class Repeticao {
    public static void main() {
        //exemplo for
      System.out.println("Lista de 1 até 10");
