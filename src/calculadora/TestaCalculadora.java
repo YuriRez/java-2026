@@ -17,8 +17,8 @@ public class TestaCalculadora {
 
         //versão direta
         System.out.println("Soma: " + calc.somar(50, 100));
-        System.out.println("Subtração: " + calc.subtrair(20, 100));
-        System.out.println("Produto: " + calc.multiplicar(10, 10));
+        System.out.println("Subtraão: " + calc.subtrair(20, 100));
+        System.out.println("Produgit add o: " + calc.multiplicar(10, 10));
         System.out.println("Quociente: " + calc.dividir(100, 20));
 
         JOptionPane.showMessageDialog(null, calc.mostrarUltimoResultadoCalculado());
