@@ -5,6 +5,19 @@ public class Funcionario {
     private int idade;
     private double salario;
 
+    public Funcionario() {
+       // System.out.println("Objero sendo criado...");
+        //this.nome = "";
+        //this.idade = 0;
+        //this.salario = 0;
+    }
+
+    public Funcionario(String nome, int idade, double salario) {
+        this.setNome(nome);
+        this.setIdade(idade);
+        this.setSalario(salario);
+    }
+
     public String getNome() {
         if (this.nome == null) {
             return "Nome ainda não definido!";

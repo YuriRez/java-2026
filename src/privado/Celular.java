@@ -5,6 +5,15 @@ public class Celular {
     private String modelo;
     private int ano;
 
+    public Celular(String marca, String modelo, int ano){
+        this.setMarca(marca);
+        this.setModelo(modelo);
+        this.setAno(ano);
+    }
+ public Celular(){
+
+ }
+
     public String getMarca() {
         return this.marca;
     }
